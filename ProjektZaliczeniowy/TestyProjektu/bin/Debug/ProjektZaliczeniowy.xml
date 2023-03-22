@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjektZaliczeniowy</name>
+    </assembly>
+    <members>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.#ctor">
+            <summary>
+            Konstruktor nieparametryczny inicjuje nową liste - atlas
+            </summary>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.PodajIlosc">
+            <summary>
+            Metoda podaje ilosc obiektow w liscie 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.Umiesc(ProjektZaliczeniowy.Cwiczenie)">
+            <summary>
+            Metoda Dodaje obiekt typu Cwiczenie do listy
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.Sortuj">
+            <summary>
+            Sortuje liste
+            </summary>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.ZapiszXML(System.String,ProjektZaliczeniowy.AtlasCw)">
+            <summary>
+            Zapisuje w XML
+            </summary>
+            <param name="nazwa">nazwa pliku w ktorym zapisuje obiekt typu AtlasCw</param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.OdczytajXML(System.String)">
+            <summary>
+            Odczytuje plik XML
+            </summary>
+            <param name="nazwa">nazwa odczytywanego pliku</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.Clone">
+            <summary>
+            Klonowanie plytkie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.AtlasCw.DeepClone">
+            <summary>
+            Klonowanie glebnokie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Cwiczenie.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Cwiczenie.#ctor(System.String)">
+            <summary>
+            Konstruktor parametryczny - obiekt nazwa
+            </summary>
+            <param name="nazwa"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Cwiczenie.#ctor(ProjektZaliczeniowy.KatergoraCw,System.String)">
+            <summary>
+            Konstruktor parametryczn - obiekty kategoria i nazwa, wykorzystujacy konstruktor nieparametryczny
+            </summary>
+            <param name="katergoria"></param>
+            <param name="nazwa"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Cwiczenie.Clone">
+            <summary>
+            Klonowanie plytkie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Cwiczenie.CompareTo(ProjektZaliczeniowy.Cwiczenie)">
+            <summary>
+            Porownuje obiekt typu Cwiczenie do innego obiektu tego samego typu
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.#ctor">
+            <summary>
+            Konstruktor nieparametryczny, inicjuje nowy obiekt
+            </summary>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.#ctor(ProjektZaliczeniowy.DzienTyg)">
+            <summary>
+            Konstruktor parametryczny - DzienTyg, inicjuje nowy obiekt.
+            Wykorzystuje konstruktor podstawowy nieparametryczny
+            </summary>
+            <param name="dzien"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.PodajIlosc">
+            <summary>
+            Podaje ilosc obiektow w liscie 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.Umiesc(ProjektZaliczeniowy.SzczegolyCwiczenia)">
+            <summary>
+            Dodaje element do listy
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.Zmien(ProjektZaliczeniowy.SzczegolyCwiczenia,ProjektZaliczeniowy.SzczegolyCwiczenia)">
+            <summary>
+            Zamienia stary obiekt listy typu SzczegolyCwiczenia na nowy
+            </summary>
+            <param name="stara"></param>
+            <param name="nowa"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.ZapiszXML(System.String,ProjektZaliczeniowy.Plan)">
+            <summary>
+            Zapisuje plik w XML
+            </summary>
+            <param name="nazwa"> Nazwa zapisywanego pliku</param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.Plan.OdczytajXML(System.String)">
+            <summary>
+            Odczytuje plik w XML
+            </summary>
+            <param name="nazwa">Nazwa odczytywanego pliku</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.SzczegolyCwiczenia.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            Wykorzystuje konstruktor nieparametryczny z klasy bazowej
+            </summary>
+        </member>
+        <member name="M:ProjektZaliczeniowy.SzczegolyCwiczenia.#ctor(ProjektZaliczeniowy.KatergoraCw,System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny wykorzystujacy konstruktor parametryczny z klasy bazowej
+            </summary>
+            <param name="katergoria">Parametr kategorii Cwiczenia</param>
+            <param name="nazwa">Parametr nazwy cwiczenia</param>
+            <param name="powtorzenia">Parametr powtorzen szczegol cwiczenia</param>
+            <param name="serie">Parametr serii powtorzen cwiczenia</param>
+        </member>
+        <member name="M:ProjektZaliczeniowy.SzczegolyCwiczenia.ObliczIloscPowtorzen">
+            <summary>
+            Oblicza lalczna ilosc powtorzen cwiczenia
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjektZaliczeniowy.SzczegolyCwiczenia.RownaSie(ProjektZaliczeniowy.SzczegolyCwiczenia)">
+            <summary>
+            Okresla czy dwa wystapienia sa takie same
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

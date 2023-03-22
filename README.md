@@ -1,1 +1,1 @@
-# C-gui-app-for-creating-training-plan
+This project is about creating training plan in C#.  

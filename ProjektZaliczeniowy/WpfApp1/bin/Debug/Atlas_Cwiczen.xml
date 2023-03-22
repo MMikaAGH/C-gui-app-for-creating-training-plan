@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AtlasCw xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Atlas>
+    <Cwiczenie>
+      <Nazwa>Przyciąganie sztangi łamanej przy ciele stojąc</Nazwa>
+      <Kategoria>Barki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wyciskania sztangi/hantli stojąc/siedząc</Nazwa>
+      <Kategoria>Barki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wznosy ramion z hantlami na bok</Nazwa>
+      <Kategoria>Barki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wznosy ramion z hantlami przed sobą</Nazwa>
+      <Kategoria>Barki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Uginanie ramienia z hantlą w pozycji pochylonej z rotacją wewnętrzną</Nazwa>
+      <Kategoria>Biceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Uginanie ramion stojąc przy użyciu linek wyciągu górnego</Nazwa>
+      <Kategoria>Biceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Uginanie ramion ze sztangą</Nazwa>
+      <Kategoria>Biceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Uginanie ramion ze sztangą łamaną stojąc</Nazwa>
+      <Kategoria>Biceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Brzuszki</Nazwa>
+      <Kategoria>Brzuch</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Hula hop</Nazwa>
+      <Kategoria>Brzuch</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Przysiad</Nazwa>
+      <Kategoria>Brzuch</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Rowerek</Nazwa>
+      <Kategoria>Brzuch</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Deska</Nazwa>
+      <Kategoria>Cale_cialo</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Deska bokiem</Nazwa>
+      <Kategoria>Cale_cialo</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Przysiady</Nazwa>
+      <Kategoria>Cale_cialo</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wyciskanie hantli nad głową</Nazwa>
+      <Kategoria>Cale_cialo</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Pompki</Nazwa>
+      <Kategoria>Klatka_Piersiowa</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Rozpiętki</Nazwa>
+      <Kategoria>Klatka_Piersiowa</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wyciskanie hantli</Nazwa>
+      <Kategoria>Klatka_Piersiowa</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wyciskanie sztangi</Nazwa>
+      <Kategoria>Klatka_Piersiowa</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Podskoki</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Skipy</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Sprinty 10m</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wejście na podest ze sztangą</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wspięcia na palcach stojąc</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wspięcia na palcach w pozycji siedzącej</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wyciskanie obunóż na maszynie</Nazwa>
+      <Kategoria>Lydka</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Obracanie hantli w dłoni</Nazwa>
+      <Kategoria>Przedramie</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Unoszenie hantli nachwytem</Nazwa>
+      <Kategoria>Przedramie</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Unoszenie hantli podchwytem</Nazwa>
+      <Kategoria>Przedramie</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Unoszenie krzesła</Nazwa>
+      <Kategoria>Przedramie</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Zwis na drążku</Nazwa>
+      <Kategoria>Przedramie</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Pompki na poręczach</Nazwa>
+      <Kategoria>Triceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Pompki na poręczach</Nazwa>
+      <Kategoria>Triceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Prostowanie przedramion na wyciągu górnym</Nazwa>
+      <Kategoria>Triceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Prostowanie przedramion z hantlami leżąc na ławce poziomej</Nazwa>
+      <Kategoria>Triceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Prostowanie przedramion z hantlami siedząc na ławce poziomej</Nazwa>
+      <Kategoria>Triceps</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Przysiady na skrzynie</Nazwa>
+      <Kategoria>Uda_i_posladki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Przysiady ze sztangą o wąskim rozstawie nóg</Nazwa>
+      <Kategoria>Uda_i_posladki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Przysiady ze sztangą trzymaną z przodu</Nazwa>
+      <Kategoria>Uda_i_posladki</Kategoria>
+    </Cwiczenie>
+    <Cwiczenie>
+      <Nazwa>Wykroki ze sztangą</Nazwa>
+      <Kategoria>Uda_i_posladki</Kategoria>
+    </Cwiczenie>
+  </Atlas>
+</AtlasCw>

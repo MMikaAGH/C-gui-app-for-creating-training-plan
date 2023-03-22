@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp1.DodajCwDoPlanuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="DodajCwDoPlanuWindow" Height="450" Width="800"  WindowState="Maximized">
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.25*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.05*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblPowtórzenia" Content="Powtórzenia:" Grid.Row="3" FontSize="26" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtPowtorzenia" TextWrapping="Wrap" Grid.Column="1" Grid.Row="3" FontSize="26" Background="LavenderBlush"/>
+        <Label x:Name="lblSerie" Content="Serie (max 9):" Grid.Row="4" FontSize="26" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtSerie" TextWrapping="Wrap" Grid.Column="1" Grid.Row="4" FontSize="26" Background="LavenderBlush"/>
+        <Label x:Name="lblKategoria" Content="Kategoria:" Grid.Row="1" FontSize="26" HorizontalAlignment="Center"/>
+        <ComboBox x:Name="comboBox" Grid.Row="1" Grid.Column="1" FontSize="26" Background="LavenderBlush">
+            <ComboBoxItem x:Name="Barki" FontSize="26">Barki</ComboBoxItem>
+            <ComboBoxItem x:Name="Brzuch" FontSize="26">Brzuch</ComboBoxItem>
+            <ComboBoxItem x:Name="Biceps" FontSize="26">Biceps</ComboBoxItem>
+            <ComboBoxItem x:Name="Cale_cialo" FontSize="26">Cale cialo</ComboBoxItem>
+            <ComboBoxItem x:Name="Klatka_Piersiowa" FontSize="26">Klatka piersiowa</ComboBoxItem>
+            <ComboBoxItem x:Name="Lydka" FontSize="26">Lydka</ComboBoxItem>
+            <ComboBoxItem x:Name="Plecy" FontSize="26">Plecy</ComboBoxItem>
+            <ComboBoxItem x:Name="Przedramie" FontSize="26">Przedramie</ComboBoxItem>
+            <ComboBoxItem x:Name="Triceps" FontSize="26">Triceps</ComboBoxItem>
+            <ComboBoxItem x:Name="Uda_i_posladki" FontSize="26">Uda i posladki</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="txtNazwa" TextWrapping="Wrap" Grid.Column="1" Grid.Row="2" FontSize="26" Background="LavenderBlush"/>
+        <Label x:Name="lblNazwa" Content="Nazwa (z dużej litery):" Grid.Row="2" FontSize="26" HorizontalAlignment="Center"/>
+        <Button x:Name="btnDodajCw" Content="Dodaj Ćwiczenie" FontSize="26" Grid.Column="1" Grid.Row="5" Click="btnDodajCw_Click" Background="AntiqueWhite"/>
+
+    </Grid>
+</Window>
